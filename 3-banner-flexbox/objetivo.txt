@@ -1,0 +1,4 @@
+criar um index.html base para que eles apliquem as modificacoes que serão repassadas, que seja preciso mudar o html.
+o objetivo principal é focar no css.
+
+dar dicas como quais elementos podem ser usados pra fazer o objetivoç.
