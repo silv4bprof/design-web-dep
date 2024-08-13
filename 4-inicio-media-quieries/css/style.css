@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    max-width: 500px;
+    background-color: gray;
+    height: 300px;
+    gap: 16px;
+}
+
+.item-container {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+
+@media (max-width: 300px) {
+    .container {
+        background-color: red;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 200px) {
+    .item-container {
+        background-color: aqua;
+        width: 50px;
+        height: 50px;
+        border: 4px solid #2d2d2d;        
+    }
+}
